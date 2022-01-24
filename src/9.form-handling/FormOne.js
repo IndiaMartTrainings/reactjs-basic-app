@@ -11,6 +11,8 @@ export class FormOne extends Component {
             gender: '',
             isAdmin: false
         }
+
+        this.state.username ='Uma'
     }
 
     getFormData(event){

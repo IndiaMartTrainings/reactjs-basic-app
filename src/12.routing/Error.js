@@ -1,0 +1,1 @@
+export const Error = () => <div className='container'>Page Can't be diaplyed</div>

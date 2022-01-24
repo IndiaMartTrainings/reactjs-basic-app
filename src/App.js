@@ -3,6 +3,15 @@
 // import Welcome from "./1.components/2.class/Welcome";
 // import { WelcomeOne } from "./1.components/2.class/WelcomeOne";
 // import Hello from "./2.jsx/Hello";
+import LifeCycleA from "./10.life-cycle-methods/LifeCycleA";
+import Api from "./11.ajax-calls/Api";
+import ApiOne from "./11.ajax-calls/ApiOne";
+import Student from "./11.ajax-calls/Student";
+import UsersApi from "./11.ajax-calls/UsersApi";
+import Routing from "./12.routing/Routing";
+import ClassCounter from "./13.hooks/ClassCounter";
+import HookCounter from "./13.hooks/HookCounter";
+import HooksUsingArray from "./13.hooks/HooksUsingArray";
 import Greeting from "./3.props/Greeting";
 
 import Welcome from "./3.props/Welcome";
@@ -34,8 +43,17 @@ import FormOne from "./9.form-handling/FormOne";
 
 function App() {
   return (
-    <div className="container">
-      <FormOne />
+    <div>
+      <HooksUsingArray />
+      {/* <HookCounter /> */}
+      {/* <ClassCounter /> */}
+      {/* <Routing /> */}
+      {/* <Student /> */}
+      {/* <UsersApi /> */}
+      {/* <ApiOne /> */}
+      {/* <Api /> */}
+      {/* <LifeCycleA /> */}
+      {/* <FormOne /> */}
       {/* <Form /> */}
       {/* <h1>This h1</h1>
       <h2 className="error">This is Error</h2> <br />
@@ -64,9 +82,9 @@ function App() {
         <p>This is class child component</p>
       </Welcome>
       <Welcome name="Adam" skill="Business Analyst" />
-      <Welcome name="Tuan" skill="TechBoss" />
+      <Welcome name="Tuan" skill="TechBoss" /> */}
       <br /><br />
-      <Greeting name="Scott" skill="Manager">
+      {/* <Greeting name="Scott" skill="Manager">
         <p>This is function child component</p>
       </Greeting>
       <Greeting name="Adam" skill="Business Analyst"/>

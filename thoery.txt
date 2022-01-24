@@ -89,7 +89,7 @@ Basics of Styling in React Components
 
 Life Cycle Methods
 -------------------
-When we create a React Compoenent it goes through several stages 
+When we create a React Component it goes through several stages 
 in its life Cycle
 
 Note: Life Cycle Methods do not exist on function components
@@ -114,7 +114,7 @@ LifeCycle Methods
 -> componentDidMount 
 
 constructor - A special function that will get called whenever 
-              a new compoenent is created
+              a new component is created
 
       When to use ? 
       -------------
@@ -139,7 +139,7 @@ static getDerivedStateFromProps
 Method is called every time a component is re-rendered
 
 -> we can set the state 
--> Never use this method for HTTP Calls
+-> Never use this method for Ajax / HTTP Calls
 
 render()
 ---------
@@ -196,11 +196,11 @@ we use react-router-dom
 
 BrowserRouter - Used for doing client-side Routing with URL Segments
 
-Switch - Returns only the first Matching Route rather than all matching routes
+Routes - Returns only the first Matching Route rather than all matching routes
 
-Route - "Conditionally Shown Compoenent" based on matching a path to a URL 
+Route - "Conditionally Shown Component" based on matching a path to a URL 
 
-Link - Repacement for anchor tags
+Link - Replacement for anchor tags
 
 React Hooks
 ------------
